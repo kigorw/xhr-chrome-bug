@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "This extension does not permitted CORS",
+  "description": "This extension does not permitted CORS",
+  "version": "1.0",
+  "content_scripts": [{
+      "all_frames": true,
+      "matches": ["<all_urls>"],
+      "js": ["index.js"]
+  }],
+  "permissions": [
+     "https://www.google.com/"
+  ]
+}
