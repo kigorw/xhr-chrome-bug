@@ -9,6 +9,6 @@
       "js": ["index.js"]
   }],
   "permissions": [
-     "https://www.google.com/"
+     "<all_urls>"
   ]
 }
